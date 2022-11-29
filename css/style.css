@@ -1,0 +1,93 @@
+/* google font */
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;700&display=swap");
+
+/* variables */
+:root {
+    /* font */
+    --ff: "Barlow Semi Condensed", sans-serif;
+    --fs-base: 0.8125rem;
+    --fw-medium: 500;
+    --fw-semibold: 600;
+    /* color */
+    /* color general */
+    --clr-primary-100: hsl(210, 46%, 95%);
+    --clr-primary-400: hsl(217, 19%, 35%);
+    --clr-primary-900: hsl(219, 29%, 14%);
+    --clr-secondary: hsl(263, 55%, 52%);
+    --clr-neutral-100: hsl(0, 0%, 100%);
+    --clr-neutral-200: hsl(0, 0%, 81%);
+}
+
+/* reset */
+/* box-sizing model */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* remove default margin */
+* {
+    margin: 0;
+}
+
+/*  Allow percentage-based heights in the application */
+html,
+body {
+    height: 100%;
+}
+
+/* tweaking line height */
+body {
+    line-height: 1.5;
+}
+
+/* font smooting */
+body {
+    -webkit-font-smoothing: antialiased;
+}
+
+/* media defaults */
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+/* inherit font for form controls */
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+/* word wrapping */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+/* remove text decoration anchor tag */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* remove list style */
+ul {
+    list-style: none;
+}
+
+/* display */
+.grid {
+    display: grid;
+}
